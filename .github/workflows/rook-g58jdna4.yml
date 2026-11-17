@@ -1,0 +1,7 @@
+name: rook-g58jdna4
+on: workflow_dispatch
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo noop
